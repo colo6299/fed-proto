@@ -1,0 +1,109 @@
+<!-- templates/index.html -->
+<!-- TODO: Extend 'base.html' and put content into a block 'body' to match -->
+{% extends 'new_base.html' %}
+
+{% block content %}
+
+
+    <!-- HERO -->
+
+    <div class="jumbotron text-center hero-background-img">
+        <h1>fed·er·ate
+
+        </h1>
+        <p class="lead">-to form or be formed into a centralized group,</br> 
+            within which each person maintains autonomy.</p>
+    </div>
+
+
+    <!-- BENEFITS -->
+    <div class="container mb-5 mt-5 pb-5 pt-5">
+        <div class="row">
+            <div class="col-lg-4" font>
+                <h2>Online learning, reimagined.</h2> <br\>
+                Federate is changing the shape of online learning by matching you with other
+                users interested in the same topics.
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-lg-8 card">
+                <h3>Group support</h3>
+                <p class="lead">When learning online, it can help to work through topics as part of a group.
+                    Whether it's learning a language, or learning to juggle—it's easy to keep 
+                    your momentum when you have people to give you a push. Federate will help 
+                    match you with people you can learn well with.
+                </p>
+            </div>
+            <div class="col-lg-4 img-fluid">
+                <img src="/static/support groups.jpg" class="img-fluid" alt="">
+            </div>
+        </div>
+        <div class="row mt-5">
+                <div class="col-lg-4 img-fluid">
+                        <img src="/static/sunlight.jpg" class="img-fluid" alt="">
+                    </div>
+                <div class="col-lg-8 card">
+                    <h3>Agile learning</h3>
+                    <p class="lead">Maintain the flexibility of online learning, while gaining the support
+                        structure of a peer group. Maintain any number of topic groups with people at your 
+                        skill level in that domain.
+                    </p>
+                </div>
+                
+            </div>
+            <div class="row mt-5">
+                    <div class="col-lg-8 card">
+                        <h3>Community mentorship</h3>
+                        <p class="lead">Learning teams can match with topic mentors, who help to 'unblock' team members
+                            and help to build collaborative sills in the team. Any community member can volunteer as a mentor
+                            if they have the experience and teamwork skills.
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="/static/teacher.jpg" class='img-fluid '>
+                    </div>
+                </div>
+    </div>
+    <!-- CALL TO ACTION -->
+    <div class="jumbotron text-center mb-0">
+        <p class="lead mb-4">Sign Up for More Infomation</p>
+        <div class="d-flex justify-content-center">
+            <form action="#" class='form-inline'>
+                <input type="text" class="form-control mb-2 mr-sm-2" placeholder="Email" />
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </form>
+        </div>
+    </div>
+    
+{% endblock %}                         
+<!-- in jinja2, even if your end block is commented out, jinj2 will still count it                      -->
+
+<!-- TODO: For each gif, include the 'gif.html' template to display it -->
+
+
+
+
+
+<!-- 
+<form action='/compliment'>
+    <p>
+        <input name="Gifs" value="" size="80">
+        <input type="Submit" value="Submit">  
+    </p>
+</form>
+<p>
+    What do you want to find?
+    <input type="text" query = query/>
+</p>
+<p>
+    <input type="checkbox" name="show_compliments"/>
+    Show Compliments
+</p>
+<p>
+    How many compliments?
+    <select name="num_compliments">
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+    </select>
+</p>
+<h1>HERE</h1> -->
