@@ -1,5 +1,5 @@
 .hero-background-img {
-    background-image: url("content/andres-gomez-KBXkv3ZNAGE-unsplash.jpg");
+    background-image: url("static/collab.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -10,7 +10,7 @@
 .hero-background-img:after {
     content: "";
     position: absolute;
-    background-image: url("../static/collab.jpg");
+    background-image: url("static/collab.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
